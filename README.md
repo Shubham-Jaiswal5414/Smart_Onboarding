@@ -5,6 +5,12 @@
 
 ---
 
+## 🚀 Live Demo
+
+[View Live Demo](https://your-live-link-here) ✨
+
+---
+
 ## ✨ Features
 
 - **🤖 AI-Powered Analysis**: Uses Anthropic Claude to intelligently analyze dataset schemas
