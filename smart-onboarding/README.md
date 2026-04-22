@@ -113,7 +113,29 @@ Done! Every `git push` auto-deploys. 🎉
 
 ---
 
-## 🏗️ Project Structure
+## � Deploy to GitHub Pages
+
+### Automatic Deployment with GitHub Actions
+
+**Step 1** — Enable GitHub Pages
+1. Go to your GitHub repository
+2. Click **Settings** → **Pages**
+3. Under **Source**, select **GitHub Actions**
+
+**Step 2** — Add Environment Secret (optional, for AI features)
+1. In your repo, go to **Settings** → **Secrets and variables** → **Actions**
+2. Click **New repository secret**
+   - Name: `VITE_ANTHROPIC_KEY`
+   - Value: `sk-ant-your-key-here`
+
+**Step 3** — Deploy
+- The workflow file `.github/workflows/deploy.yml` is already set up
+- Every push to `master` branch will auto-deploy
+- Your live URL: `https://YOUR_USERNAME.github.io/Smart_Onboarding` ✅
+
+---
+
+## �🏗️ Project Structure
 
 ```
 smart-onboarding/
