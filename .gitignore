@@ -1,0 +1,3 @@
+# Ignore Netlify CLI local config and build output
+.netlify/
+smart-onboarding/frontend/dist/
