@@ -7,7 +7,7 @@
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-live-link-here) ✨
+[View Live Demo](https://idyllic-travesseiro-85eae6.netlify.app) ✨
 
 ---
 

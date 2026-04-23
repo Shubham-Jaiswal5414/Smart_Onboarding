@@ -1,0 +1,15 @@
+[build]
+  base    = "smart-onboarding/frontend"
+  command = "npm install && npm run build"
+  publish = "smart-onboarding/frontend/dist"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
